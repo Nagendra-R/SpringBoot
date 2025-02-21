@@ -1,0 +1,109 @@
+one to one mapping 
+cascade
+ fetch
+Tostring(exclude="course")
+
+==
+
+owns the realtionship
+parent and child entity 
+orphanRemoval = true
+
+=================
+
+SPRING SWAGGER API
+accutator 
+spring boot dev tools
+
+
+===
+
+week4 
+
+===
+5.1 -> project structure
+5.2 -> dev tools of spring 
+
+auditing --> observation and tracking of data over time
+date , modify
+
+
+====
+5.4 --> 
+
+
+making third party api calls with restclient--> 
+
+
+5.5--> Logging 
+to debug the application in the production environment
+info
+trace
+error
+debug
+
+
+=====
+
+airbnb project 
+===
+6th feb -> Worked on entites and structure 
+enum  
+eleement collection 
+	
+	
+	=====
+	
+	7th feb 
+	create a new inventories whenever a new room is created and as soon as hotel is active 
+	delete all inventories whenevr room or hotel is deleted 
+	
+	=====
+	
+	8th feb 
+	search hotels in paginated view
+	Long dateCount = ChronoUnit.DAYS.between(hotelSearchRequest.getStartDate(), hotelSearchRequest.getEndDate()) + 1;   ChronoUnit//
+	
+	
+	=====
+	9th feb 
+	weeks 4 project video
+	comkpleted week 4  and pushed the code into github
+	dynamic price model
+	
+	
+	=======
+	feb 12 
+	decorator pattern 
+	
+	
+	===
+	13 feb 
+	spring security::
+	CSRF = cross site request forgery 
+	
+	security filters 
+	JSON - json web token 
+	d9ed665d-b49a-4cd7-bc05-f8c46c492843
+	
+	=== 
+	17 feb 
+	5.4 ----
+	
+	security filterChain 
+	for security we need to configure 
+	
+	login configuration 
+	JWT (securely send info b/w client and server)
+	===
+	
+19 feb 
+daily code buffer spring security
+	=========
+	
+	
+	https://learning.gsdcouncil.org
+
+Login Link: https://learning.gsdcouncil.org
+•	Username : Nagendra.ReddyRachamallu@ust.com
+•	Password : cX3auGv3

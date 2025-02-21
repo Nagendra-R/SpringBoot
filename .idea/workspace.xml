@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="283b8197-33d6-4ac0-8343-7337ddbabb49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/dto/HotelPriceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/entites/HotelMinPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/repository/HotelMinPriceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/service/PricingUpdateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/strategy/BasePricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/strategy/HolidayPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/strategy/OccupancyPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/strategy/PricingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/strategy/PricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/strategy/SurgePricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/strategy/UrgencyPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.idea/week2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/AirnbApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/AirnbApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/advices/GlobalResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/advices/GlobalResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/controller/HotelBrowseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/controller/HotelBrowseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/entites/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/entites/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/service/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/service/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/service/InventoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/airnb/airnb/src/main/java/com/codingshuttle/project/airnb/service/InventoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/week2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week2/week2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/week2/src/main/java/com/codingshuttle/week2/advices/APIResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/week2/week2/src/main/java/com/codingshuttle/week2/advices/APIResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/week2/src/main/java/com/codingshuttle/week2/controller/EmployeeCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/week2/week2/src/main/java/com/codingshuttle/week2/controller/EmployeeCon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/week2/src/main/java/com/codingshuttle/week2/dto/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/week2/week2/src/main/java/com/codingshuttle/week2/dto/EmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/week2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week2/week2/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/airnb/airnb" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2tL3rcpi2zN9EIs953wxnaVA5IR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/codingshuttle"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="283b8197-33d6-4ac0-8343-7337ddbabb49" name="Changes" comment="" />
+      <created>1740117726637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740117726637</updated>
+    </task>
+    <servers />
+  </component>
+</project>

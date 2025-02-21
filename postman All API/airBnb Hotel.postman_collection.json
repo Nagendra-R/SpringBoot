@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "4ef1e7e6-970d-4d20-9609-742164f1f619",
+		"name": "airBnb Hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33028530"
+	},
+	"item": [
+		{
+			"name": "Get Hotel By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/admin/hotels/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"admin",
+						"hotels",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activate Hotel",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/admin/hotels/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"admin",
+						"hotels",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Hotel By Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/admin/hotels/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"admin",
+						"hotels",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Hotel By Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Hotel Royal\",\r\n    \"city\":\"Hyderabad\",\r\n    \"photos\":[\"https:photos.com\"],\r\n    \"amenities\":[\"AC\",\"Lakeview\",\"pool area\"],\r\n    \"hotelContactInfo\":{\r\n        \"address\":\"central delhi\",\r\n        \"email\":\"hotellotus@gmail.com\",\r\n        \"phoneNumber\":\"123455\",\r\n        \"location\":\"latitude1/longitude2\"\r\n    },\r\n    \"active\":false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/admin/hotels/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"admin",
+						"hotels",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Hotel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Royal\",\r\n    \"city\":\"Bangalore\",\r\n    \"photos\":[\"https:photos.com\"],\r\n    \"amenities\":[\"AC\",\"Lakeview\",\"pool area\"],\r\n    \"hotelContactInfo\":{\r\n        \"address\":\"central delhi\",\r\n        \"email\":\"hotellotus@gmail.com\",\r\n        \"phoneNumber\":\"123455\",\r\n        \"location\":\"latitude1/longitude2\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/admin/hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"admin",
+						"hotels"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

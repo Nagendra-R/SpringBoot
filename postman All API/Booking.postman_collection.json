@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "ac59b832-a360-415f-9aaf-8dc40e68268e",
+		"name": "Booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33028530"
+	},
+	"item": [
+		{
+			"name": "Search Hotels",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"city\": \"Bangalore\",\r\n    \"startDate\": \"2025-03-09\",\r\n    \"endDate\": \"2025-04-10\",\r\n    \"roomsCount\": 5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/hotels/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"hotels",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "initialise Booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"hotelId\":1,\r\n    \"roomId\":1,\r\n    \"checkInDate\": \"2025-09-16\",\r\n    \"checkOutDate\": \"2025-09-19\",\r\n    \"roomsCount\": 5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/bookings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bookings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Guests",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"John Doe\",\r\n        \"gender\": \"MALE\",\r\n        \"age\": 30\r\n    },\r\n    {\r\n        \"name\": \"Jane Doe\",\r\n        \"gender\": \"FEMALE\",\r\n        \"age\": 28\r\n    }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/bookings/1/addGuests",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bookings",
+						"1",
+						"addGuests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hotel Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/hotels/1/info",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"hotels",
+						"1",
+						"info"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
